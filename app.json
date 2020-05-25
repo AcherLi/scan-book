@@ -1,12 +1,7 @@
 {
   "cloud": true,
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/busList/busList",
-    "pages/busDetail/busDetail",
-    "pages/busAll/busAll",
-    "pages/stationAll/stationAll"
+    "pages/index/index"
   ],
   "permission": {
     "scope.userLocation": {
@@ -15,24 +10,8 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4285f4",
-    "navigationBarTitleText": "合肥实时公交查询",
+    "navigationBarTitleText": "小玉的工具箱",
     "navigationBarTextStyle": "white"
   },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "assests/img/home.png",
-        "selectedIconPath": "assests/img/home1.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "iconPath": "assests/img/route.png",
-        "selectedIconPath": "assests/img/route1.png",
-        "text": "地铁图"
-      }
-    ]
-  }
+  "sitemapLocation": "sitemap.json"
 }

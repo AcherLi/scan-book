@@ -13,6 +13,9 @@
 	"appid": "wx3a17537682249100",
 	"projectname": "wxbus",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,
